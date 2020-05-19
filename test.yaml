@@ -8,3 +8,6 @@ spec:
     repository: https://stefanprodan.github.io/podinfo
     name: podinfo
     version: 3.2.0
+  valuesFrom:
+  - externalSourceRef:
+      url: file:///tmp/values.yaml
